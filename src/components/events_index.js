@@ -50,4 +50,3 @@ const mapStateTpProps = state => ({ events: state.events });
 const mapDispatchToProps = ({ readEvents })
 
 export default connect(mapStateTpProps, mapDispatchToProps)(EventsIndex)
-

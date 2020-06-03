@@ -57,4 +57,3 @@ const mapDispatchToProps = ({ postEvent })
 export default connect(null, mapDispatchToProps)(
   reduxForm({ validate, form: 'eventNewForm' })(EventsNew)
 )
-
